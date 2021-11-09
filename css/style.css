@@ -1,0 +1,204 @@
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.header_menu {
+  top: 0;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.685);
+}
+
+.logo-img img {
+  position: absolute;
+  width: 100px !important;
+  margin: 20px;
+}
+
+.list-nav {
+  width: 100%;
+  margin-right: 0%;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+ul {
+  display: flex;
+  margin-top: 25px;
+}
+
+ul li a {
+  margin-left: 40px;
+  text-decoration: none !important;
+  color: #fff;
+}
+
+ul li a:hover {
+  color: rgb(238, 190, 197);
+}
+
+.carousel-inner {
+  height: 100vh;
+}
+
+.carousel-caption {
+  bottom: 14.25rem;
+}
+
+.carousel-caption.foto-01-bg {
+  bottom: 10.25rem;
+}
+
+/*Section sobre nós*/
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #FFB6C1;
+  text-align: center;
+  margin: 100px;
+}
+
+.sobre-img01 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image-principal {
+  margin-top: 100px;
+}
+
+.sobre-img01 p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  text-align: left;
+  color: #080808;
+  margin-top: 200px;
+}
+
+/*Section produtos*/
+
+section#portfolio {
+  padding-bottom: 35px;
+}
+
+#produtos {
+  margin-top: 200px;
+  padding-bottom: 70px;
+  background-color: #e7e7e7ed;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #000;
+  padding: 60px;
+}
+
+.produtos-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.produtos-images__prod {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  z-index: 10;
+  max-width: 300px;
+  padding-bottom: 31px;
+  margin: 0 10px;
+}
+
+.galeria-fotos__textos p {
+  margin-bottom: 30px;
+}
+
+.produtos-images a {
+  text-decoration: none;
+  flex: 1 1 150px;
+}
+
+.produtos-images img {
+  width: 100%;
+  border-radius: 0 0 30px 0;
+}
+
+.produtos-images span {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  margin-top: 25px;
+  text-align: center;
+  color: #FFB6C1;
+}
+
+/*section portfolio*/
+
+.galeria-fotos__portfolio-images img {
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #000;
+  padding-top: 60px;
+  margin-bottom: 10px;
+}
+
+.galeria-fotos__textos p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #FFB6C1;
+}
+
+/*footer*/
+
+#footer {
+  background-color: #000;
+  height: 300px;
+}
+
+.logo-footer img {
+  width: 100px;
+  padding-top: 50px;
+  margin-bottom: 15px;
+}
+
+.icones-footer i {
+  color: #fff;
+}
+
+.copyright-footer p {
+  color: #fff;
+}
+
+.slick-prev:before, .slick-next:before {
+  color: black;
+}
+
+.image-principal img {
+  width: 100%;
+}
+
+.image-principal__texto p {
+  width: 100%;
+}
+
+.galeria-fotos__portfolio img {
+  padding: 0 20px;
+}
